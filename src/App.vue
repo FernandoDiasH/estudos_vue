@@ -2,12 +2,15 @@
 </script>
 
 <template>
-    <main>
-        <nav>
-            <RouterLink :to="{name:'home'}">Go to Home</RouterLink>
-            <RouterLink :to="{name:'declarative-rendering'}">Declarative Rendering </RouterLink>
+    <main class="grid grid-cols-5">
+        <nav class="flex gap-6 p-4 col-span-5">
+            <CustomLinkComponent name="Home" />
+            <CustomLinkComponent name="Declarative Rendering" />
+            <CustomLinkComponent name="Attribute Bindings" />
         </nav>
-        <RouterView />
+        <div class="col-span-5">
+            <RouterView />
+        </div>
     </main>
 </template>
 

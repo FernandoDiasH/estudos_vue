@@ -5,6 +5,13 @@
 </script>
 
 <template>
-    <h1>{{ title }}</h1>
-    <slot> Adicione seu template aqui.</slot>
+    <div class="grid grid-cols-2">
+        <h1 class="col-span-2 text-4xl p-4">{{ title }}</h1>
+        <div class="p-4">
+            <slot name="explicacao" > Adicione seu texto de explicacao. </slot>
+        </div>
+        <div class="p-4">
+            <slot name="prototipo">Adicione seu prototipo.</slot>
+        </div>
+    </div>
 </template>

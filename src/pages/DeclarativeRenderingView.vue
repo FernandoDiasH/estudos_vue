@@ -9,7 +9,14 @@ counter.count++
 
 <template>
     <BasicPageComponent title="Declarative Rendering">
-        <p>{{ message }}</p>
-        <p>Total é: {{ counter.count }}</p>
+        <template #explicacao >
+            <p>Meu teste é isso slkdfjlskajkldfj</p>
+        </template>
+
+        <template #prototipo>
+            <p>{{ message }}</p>
+            <p>Total é: {{ counter.count }}</p>
+        </template>
+
     </BasicPageComponent>
 </template>

@@ -7,5 +7,7 @@
 </script>
 
 <template>
-    <h1>Tutorial</h1>
+    <BasicPageComponent title="Tutorial">
+        <p :class="titleClass">Troque minha cor</p>
+    </BasicPageComponent>
 </template>
