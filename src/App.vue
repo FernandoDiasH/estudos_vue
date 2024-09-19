@@ -7,6 +7,8 @@
             <CustomLinkComponent name="Home" />
             <CustomLinkComponent name="Declarative Rendering" />
             <CustomLinkComponent name="Attribute Bindings" />
+            <CustomLinkComponent name="Event Listeners" />
+            <CustomLinkComponent name="Todas as Features" />
         </nav>
         <div class="col-span-5">
             <RouterView />

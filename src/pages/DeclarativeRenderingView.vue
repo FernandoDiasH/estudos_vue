@@ -10,13 +10,14 @@ counter.count++
 <template>
     <BasicPageComponent title="Declarative Rendering">
         <template #explicacao >
-            <p>Meu teste é isso slkdfjlskajkldfj</p>
+            <p>
+                Nesse tutorial vamos aprender como funciona o 'reactive' e 'ref'.
+            </p>
         </template>
 
         <template #prototipo>
             <p>{{ message }}</p>
             <p>Total é: {{ counter.count }}</p>
         </template>
-
     </BasicPageComponent>
 </template>
